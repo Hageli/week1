@@ -204,7 +204,10 @@ if (document.readyState !== "loading") {
 
 function initializeCode() {
   var myButton = document.getElementById("my-button");
-  myButton.addEventListener("click", function () {});
+  myButton.addEventListener("click", function () {
+    console.log("Hello world!");
+    document.getElementById("header").innerHTML = "My notebook";
+  });
 }
 },{"./styles.css":"src/styles.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];

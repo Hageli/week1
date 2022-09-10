@@ -18,7 +18,7 @@ function initializeCode() {
     })
     addButton.addEventListener("click", function() {
         var newItem = document.createElement("li")
-        newItem.appendChild(document.createTextNode("TEXTTEXTTEXT"))
+        newItem.appendChild(document.createTextNode(document.getElementById("textarea").value))
         list.appendChild(newItem)
         
     })
